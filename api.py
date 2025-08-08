@@ -239,7 +239,7 @@ class API:
 import asyncio
 
 async def test():
-    api = API('2025E8021682038', '06132715')
+    api = API('', '')
     api._get_vertification_code()
     await api.login('1')
     
